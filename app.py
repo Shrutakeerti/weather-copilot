@@ -4,7 +4,7 @@ import re
 
 app = Flask(__name__)
 
-API_KEY = "f55561b2a685e4a4575fb00d723b053c"  # Replace with your OpenWeatherMap API key
+API_KEY = ""  # Replace with your OpenWeatherMap API key
 
 
 def extract_city_name(user_input):
